@@ -1,0 +1,115 @@
+#news {
+ display: flex;
+   
+    border: 1px solid grey;
+    margin-left: 50px;
+    margin-top: 5px;
+	background: #fcfcfc;
+	padding: 10px 20px 50px 20px;
+	width: 90%;
+	border-radius: 20px;
+	justify-content: space-between;
+	
+}
+body {
+    font-family: 'Lato', sans-serif;
+    overflow-x: hidden;
+    background-color: rgba(232, 243, 181, 0.363);
+
+}
+   
+
+.title{
+    font-size: 26px;
+    text-align: center;
+ 
+}
+
+.button {
+    background-color:rgba(232, 243, 181, 0.363);
+    border: none;
+    padding: 10px 30px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border: 1px solid grey;
+     border-radius: 10px;
+  
+   
+}
+
+
+    #title{
+    font-size: 30px;
+       
+        
+
+    }
+    #author{
+        font-size: 16px;
+        font-style: italic;
+        padding: 5px;
+
+    }
+    #publishedAt{ font-size: 16px;
+        font-style: italic;
+       margin-bottom: 5px;
+        padding: 5px;
+
+
+    }
+    #url {
+        background-color: rgba(232, 243, 181, 0.363);
+        padding: 1em 1em;
+        width: 80px;
+        height: 10px;
+        border-radius: 10px;
+        border: 1px solid grey;
+    
+
+      }
+      
+      #url:hover {
+        background-color: #f7f2cd;
+      }
+      
+
+      #url a{
+        text-decoration: none;
+        color: black;
+        text-align: center;
+      }
+      #url:active {
+        background-color:  rgb(72, 136, 91);
+      }
+      
+      #url:visited {
+        background-color: #f7f2cd;
+      
+      }
+
+
+#description{ 
+    text-align: justify;
+    text-justify: inter-word;
+    margin-right: 50px;
+   line-height: 28px;
+
+}
+
+.mainsearch{
+    display: flex;
+    justify-content:space-evenly;
+   
+   
+
+}
+#numberArticle{
+    font-size: 20px;
+        font-style: italic;
+        margin-bottom: 5px;
+   
+
+}
