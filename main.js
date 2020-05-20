@@ -46,7 +46,7 @@ const render = (list) => {
 
 
 
-document.getElementById("newsArea").innerHTML = newsHtml
+    document.getElementById("newsArea").innerHTML = newsHtml
 
 }
 
